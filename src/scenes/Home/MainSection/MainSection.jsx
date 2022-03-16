@@ -21,7 +21,7 @@ const MainSection = () => {
             strings={[
               'Full Stack Developer',
               'Aprendizaje continuo',
-              'Desarrollador de React Native',
+              'Desarrollador de aplicaciones React Native',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

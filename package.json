@@ -1,6 +1,5 @@
 {
-  "homepage": "https://alanmgg.github.io/",
-  "name": "react-portfolio",
+  "name": "portafolio-reactjs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
