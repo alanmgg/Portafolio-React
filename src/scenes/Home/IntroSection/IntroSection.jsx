@@ -1,12 +1,7 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
-import {
-  FaFacebookSquare,
-  FaLinkedinIn,
-  FaTelegramPlane,
-  FaInstagram,
-} from 'react-icons/fa';
+import { FaFacebookSquare, FaLinkedinIn, FaTelegramPlane, FaInstagram, FaBehance } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -112,6 +107,16 @@ const IntroSection = () => {
               className={s.socialIcon}
             >
               <FaLinkedinIn />
+            </a>
+          </li>
+          <li className={s.socialLink}>
+            <a
+              href="https://www.behance.net/alanmgg"
+              target="_blank"
+              rel="noreferrer"
+              className={s.socialIcon}
+            >
+              <FaBehance />
             </a>
           </li>
         </ul>
