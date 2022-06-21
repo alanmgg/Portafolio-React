@@ -2,7 +2,9 @@
   "name": "portafolio-reactjs",
   "version": "0.1.0",
   "private": true,
+  "author": "Alan Francisco Mora",
   "dependencies": {
+    "cacache": "^16.1.1",
     "chokidar": "^3.5.3",
     "classnames": "^2.3.1",
     "modern-normalize": "^1.1.0",
@@ -31,8 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps && react-scripts build",
-    "serve": "serve -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -55,6 +56,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "@netlify/plugin-gatsby": "^1.0.3",
+    "netlify-plugin-checklinks": "^3.0.1",
+    "prettier": "^1.16.4",
+    "tailwindcss": "^0.7.4"
   }
 }
