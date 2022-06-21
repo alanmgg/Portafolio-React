@@ -10,11 +10,11 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h3>Diseñado y desarrollado por Alan Mora</h3>
+          <h3>Copyright © {year} AFMG</h3>
         </div>
 
         <div className={s.copyright}>
-          <h3>Copyright © {year} Alan Francisco Mora</h3>
+          <h3>Alan Francisco Mora González</h3>
         </div>
 
         <div className={s.body}>
