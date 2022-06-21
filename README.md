@@ -12,7 +12,6 @@
   </p>
 </p>
 
-[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg?style=for-the-badge)](https://github.com/alanmgg/Portafolio-React)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green?style=for-the-badge)](https://alanmg.vercel.app/)
 [![Author](https://img.shields.io/badge/Author-Alan%20Francisco%20Mora-blue.svg?style=for-the-badge)](https://github.com/alanmgg)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-21%20Jun%202022-yellow.svg?style=for-the-badge)](https://github.com/alanmgg/Mini-Portafolio/commits/master)
