@@ -1,11 +1,6 @@
 import s from './Footer.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
-import {
-  FaFacebookSquare,
-  FaLinkedinIn,
-  FaTelegramPlane,
-  FaInstagram,
-} from 'react-icons/fa';
+import { FaFacebookSquare, FaLinkedinIn, FaTelegramPlane, FaInstagram, FaBehance } from 'react-icons/fa';
 
 const Footer = () => {
   let date = new Date();
@@ -67,6 +62,15 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.behance.net/alanmgg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaBehance />
               </a>
             </li>
           </ul>
