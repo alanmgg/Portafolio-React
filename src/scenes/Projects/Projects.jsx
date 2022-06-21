@@ -30,7 +30,6 @@ const Projects = () => {
         <div style={{display: 'flex'}}>
           <Button style={{marginTop: 25, backgroundColor: '#CD5FF8', color: '#FFFFFF'}} onClick={() => setButtons('All')}>ALL</Button>
           <Button style={{marginTop: 25, marginLeft: 10, backgroundColor: '#CD5FF8', color: '#FFFFFF'}} onClick={() => setButtons('Html')}>HTML/CSS</Button>
-          <Button style={{marginTop: 25, marginLeft: 10, backgroundColor: '#CD5FF8', color: '#FFFFFF'}} onClick={() => setButtons('React')}>REACT JS</Button>
           <Button style={{marginTop: 25, marginLeft: 10, backgroundColor: '#CD5FF8', color: '#FFFFFF'}} onClick={() => setButtons('Game')}>GAMES</Button>
         </div>
 

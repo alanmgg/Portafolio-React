@@ -127,47 +127,4 @@ export const PROJECTS = [
       '#javascript',
     ],
   },
-  {
-    id: '7',
-    title: 'Mini portafolio',
-    description:
-      'Mini portafolio hecho con HTML y CSS para mostrar los proyectos en los que he trabajado ultimamente.',
-    type: 'HTML',
-    image: {
-      src: 'https://raw.githubusercontent.com/alanmgg/Curriculum/main/09.png',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://alanmgg.github.io/',
-      repo: 'https://github.com/alanmgg/alanmgg.github.io',
-    },
-    technologies: [
-      '#html5',
-      '#css3',
-      '#javascript',
-    ],
-  },
-  {
-    id: '8',
-    title: 'Portafolio React',
-    description:
-      'Portafolio personal hecho en ReactJS para mostrar los proyectos en los que he trabajado ultimamente.',
-    type: 'REACT',
-    image: {
-      src: 'https://raw.githubusercontent.com/alanmgg/Curriculum/main/10.png',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://alanmg.netlify.app/',
-      repo: 'https://github.com/alanmgg/Portafolio-React',
-    },
-    technologies: [
-      '#html5',
-      '#css3',
-      '#javascript',
-      '#reactjs',
-    ],
-  },
 ];
